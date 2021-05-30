@@ -1,0 +1,47 @@
+body, html {
+    
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:16px;
+  background-image: url('https://res.cloudinary.com/devra29/image/upload/o_29/a_90/v1526241821/abstract-art-artistic-1036379_fdkmkl.jpg');
+  background-repeat: no-repeat;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+wrapper {
+border-radius: 25px;
+border: 2px solid black;
+text-align: center;
+margin:auto;
+margin-top: 5em;
+margin-bottom: 5em;
+width: 80%;
+background-color: white;
+}
+h1 {
+font-size: 2.5em;
+}
+#count {
+font-size: 5em;
+font-weight: strong;
+margin: 0;
+}
+
+.button-style {
+  margin: 0 .5em .5em .5em;
+  background: rgb(153, 240, 153);
+  width: 4em;
+  font-size: 1.75em;
+  padding: .25em;
+}
+
+#reset {
+margin: 0 1em 2em 1em;
+background-color:rgb(131, 229, 233);
+font-size: 1.25em;
+padding: .25em;
+}
+
